@@ -1,0 +1,167 @@
+.page {
+  width: min(1100px, 100% - 2rem);
+  margin: 0 auto;
+  padding: 1.5rem 0 3rem;
+}
+
+.hero {
+  display: grid;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  line-height: 1.05;
+  font-family: var(--font-display), serif;
+}
+
+.subtitle {
+  margin: 0;
+  color: var(--muted);
+  max-width: 75ch;
+}
+
+.controls {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.label {
+  display: grid;
+  gap: 0.35rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.labelText {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.select {
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: rgba(9, 16, 29, 0.8);
+  color: var(--text);
+  font-size: 1rem;
+  padding: 0.75rem;
+}
+
+.filterWrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.filterButton,
+.filterButtonOn {
+  border-radius: 999px;
+  padding: 0.45rem 0.85rem;
+  font-size: 0.82rem;
+  border: 1px solid var(--border);
+  cursor: pointer;
+}
+
+.filterButton {
+  background: rgba(9, 16, 29, 0.5);
+  color: var(--muted);
+}
+
+.filterButtonOn {
+  background: rgba(77, 243, 203, 0.18);
+  color: var(--accent);
+  border-color: rgba(77, 243, 203, 0.6);
+}
+
+.cards {
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: var(--panel);
+  backdrop-filter: blur(8px);
+  padding: 1rem;
+  box-shadow: 0 18px 40px rgba(1, 4, 12, 0.4);
+}
+
+.cardTitle {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.listItem {
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: rgba(9, 16, 29, 0.65);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  align-items: baseline;
+}
+
+.typeBadge {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.75rem;
+  background: rgba(77, 243, 203, 0.2);
+  color: var(--accent);
+}
+
+.date {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.small {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.empty {
+  color: var(--muted);
+  margin: 0;
+}
+
+.footer {
+  margin-top: 1rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+@media (min-width: 900px) {
+  .cards {
+    grid-template-columns: 2fr 1fr;
+  }
+}

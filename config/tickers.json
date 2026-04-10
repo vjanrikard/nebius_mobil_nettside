@@ -1,0 +1,11 @@
+[
+  {
+    "ticker": "NBIS",
+    "name": "Nebius Group",
+    "investorRelationsUrl": "https://investors.nebius.com",
+    "secEntityName": "Nebius",
+    "earningsDates": ["2025-05-08", "2025-08-08", "2025-11-07", "2026-02-13"],
+    "gapThresholdPct": 6,
+    "manualEvents": []
+  }
+]

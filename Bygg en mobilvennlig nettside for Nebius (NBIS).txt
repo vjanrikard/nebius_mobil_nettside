@@ -1,0 +1,1 @@
+Bygg en mobilvennlig nettside for Nebius (NBIS) med 12-måneders kursgraf, SEC-filinger fra sec.gov, pressemeldinger fra investors.nebius.com, earnings-datoer og markering av større hendelser som 8-K, guidance og gap-dager. Deploy siden og gjør det enkelt å legge til flere tickere senere via en enkel konfigurasjonsfil.
