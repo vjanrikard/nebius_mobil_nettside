@@ -1,0 +1,6 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Nebius mark</title>
+  <desc id="desc">Rounded square icon with stylized N.</desc>
+  <rect width="256" height="256" rx="24" fill="#D8F652"/>
+  <path d="M70 190V66H98C114 66 126 72 135 86L164 132C168 139 173 143 181 143H186V66H214V190H186C170 190 157 184 148 169L119 123C114 116 108 112 100 112H98V190H70Z" fill="#0F2C59"/>
+</svg>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Image from "next/image";
 import { ChartCard } from "@/components/ChartCard";
 import styles from "./page.module.css";
 import type { DashboardEvent, EventType, PricePoint, StockConfig } from "@/lib/types";
@@ -73,6 +74,24 @@ export default function Page() {
   return (
     <main className={styles.page}>
       <section className={styles.hero}>
+        <div className={styles.logoStrip}>
+          <Image
+            src="/nebius-wordmark.svg"
+            alt="Nebius wordmark"
+            width={360}
+            height={90}
+            className={styles.wordmark}
+            priority
+          />
+          <Image
+            src="/nebius-mark.svg"
+            alt="Nebius symbol"
+            width={78}
+            height={78}
+            className={styles.mark}
+            priority
+          />
+        </div>
         <p className={styles.kicker}>Event-Driven Equity Tracker</p>
         <h1 className={styles.title}>Nebius Market Radar</h1>
         <p className={styles.subtitle}>
